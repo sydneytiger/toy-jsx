@@ -1,0 +1,30 @@
+{
+  "name": "toy-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydneytiger/toy-jsx.git"
+  },
+  "keywords": [],
+  "author": "Tiger Chen <tchen@atlassian.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sydneytiger/toy-jsx/issues"
+  },
+  "homepage": "https://github.com/sydneytiger/toy-jsx#readme",
+  "dependencies": {
+    "webpack-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^5.1.3"
+  }
+}
